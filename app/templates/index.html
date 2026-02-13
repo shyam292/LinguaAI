@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LinguaAI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>LinguaAI – AI Language Engine</h1>
+
+<div class="card">
+    <h2>Create User</h2>
+    <input id="name" placeholder="Name">
+    <input id="email" placeholder="Email">
+    <button id="createBtn">Create</button>
+    <p id="userResult"></p>
+</div>
+
+<div class="card">
+    <h2>Translate</h2>
+    <input id="user_id" placeholder="User ID">
+    <textarea id="source_text" placeholder="Enter text"></textarea>
+    <input id="source_lang" placeholder="Source Language">
+    <input id="target_lang" placeholder="Target Language">
+    <button id="translateBtn">Translate</button>
+    <pre id="translateResult"></pre>
+</div>
+
+<div class="card">
+    <h2>Improve Sentence</h2>
+    <textarea id="improve_text" placeholder="Enter sentence"></textarea>
+    <button id="improveBtn">Improve</button>
+    <div id="improveResult" class="result-box"></div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

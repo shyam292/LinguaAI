@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    background: #f4f6f8;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.result-box {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    white-space: pre-wrap;   /* 👈 ye magic line hai */
+    word-wrap: break-word;
+    max-height: 250px;
+    overflow-y: auto;        /* 👈 scroll aa jayega agar lamba ho */
+    font-size: 14px;
+}
